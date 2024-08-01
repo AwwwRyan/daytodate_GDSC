@@ -9,7 +9,6 @@ class Onboarding extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    TextEditingController textfield = new TextEditingController();
     return Scaffold(
       backgroundColor: Color(0xff303030),
       body: Padding(
@@ -39,7 +38,6 @@ class Onboarding extends StatelessWidget {
                 );
               },
             ),
-            CustomTextField(controller: textfield, hintText: '',),
             Spacer(flex: 1),
             Align(
               alignment: Alignment.bottomCenter,
